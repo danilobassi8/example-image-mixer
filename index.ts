@@ -13,4 +13,4 @@ const mixer = new ImageMixer({
   ],
 });
 
-mixer.generateResults().then((result) => console.log(result));
+mixer.generateResults().then(() => console.log('Done!'));
